@@ -1,0 +1,9 @@
+# Obsidian workspace cache (user-specific, not shareable)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/hotkeys.json
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+{
+  "disabledMcpjsonServers": [
+    "recall"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(git commit:*)"
+    ]
+  }
+}
