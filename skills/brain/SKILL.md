@@ -36,7 +36,7 @@ Do NOT read the whole vault. Only read a file if updating it.
 
 ## Step 3: Read Template and Write Note
 
-1. Read the template: `templates/<type>.md` (e.g., `templates/debugging-note.md`, `templates/decision-record.md`, `templates/til.md`, `templates/daily-log.md`, `templates/project.md`)
+1. Read the template from the vault: `C:/Users/agustin.rodriguez/dev/second-brain/templates/<type>.md` (debugging-note, decision-record, til, daily-log, project)
 2. Ensure target directory exists: `mkdir -p <dir>`
 3. Fill in the template with real content from the session — no placeholders
 4. Write using the Write tool with **forward slashes**
