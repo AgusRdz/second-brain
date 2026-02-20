@@ -4,6 +4,9 @@
 .obsidian/plugins/
 .obsidian/hotkeys.json
 
+# Claude Code local session files
+.claude/*.local.*
+
 # OS files
 .DS_Store
 Thumbs.db
