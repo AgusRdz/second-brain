@@ -10,3 +10,16 @@
 # OS files
 .DS_Store
 Thumbs.db
+
+# User notes (personal content — not tracked)
+00-inbox/*.md
+01-projects/*.md
+01-projects/decisions/*.md
+02-areas/*.md
+03-resources/*.md
+03-resources/debugging/*.md
+03-resources/til/*.md
+04-archive/*.md
+
+# Keep folder structure and examples
+!**/.gitkeep

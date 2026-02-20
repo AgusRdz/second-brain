@@ -1,8 +1,5 @@
 {
   "name": "second-brain",
   "version": "1.0.0",
-  "description": "Auto-capture engineering knowledge to Obsidian vault",
-  "author": {
-    "name": "Agustin Rodriguez"
-  }
+  "description": "Auto-capture engineering knowledge to Obsidian vault"
 }

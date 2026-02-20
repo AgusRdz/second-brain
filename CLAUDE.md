@@ -1,6 +1,6 @@
 # Second Brain — Obsidian Vault
 
-Engineering knowledge base at `C:\Users\agustin.rodriguez\dev\second-brain\`.
+Engineering knowledge base. Vault root = this file's directory.
 
 ## Vault Structure (PARA)
 
@@ -15,7 +15,7 @@ templates/         → Note templates (used by /brain skill)
 
 ## Auto-Capture Rules
 
-Claude should automatically capture noteworthy events without being asked. Use the Write tool with **forward slashes** for all paths.
+Claude should automatically capture noteworthy events without being asked. Use the Write tool with **forward slashes** for all paths (relative to vault root).
 
 | Event | Note Type | Path |
 |-------|-----------|------|
@@ -28,7 +28,10 @@ For note formats, use `/brain` or read `templates/<type>.md`.
 
 ## Tag Taxonomy
 
-`#debugging`, `#decision`, `#til`, `#pattern`, `#project/ciranet`, `#project/dx`, `#angular`, `#dotnet`, `#git`, `#claude-code`
+`#debugging`, `#decision`, `#til`, `#pattern`, `#claude-code`
+
+Add your own `#project/<name>` tags as needed (e.g., `#project/my-app`).
+Role tags: `#pm`, `#design`, `#frontend`, `#backend`
 
 ## Writing Notes
 
