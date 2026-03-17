@@ -22,7 +22,19 @@ Claude should automatically capture noteworthy events without being asked. Use t
 | Fixed a non-trivial bug | Debugging note | `03-resources/debugging/YYYY-MM-DD-<slug>.md` |
 | Made a technical decision | Decision record | `01-projects/decisions/YYYY-MM-DD-<slug>.md` |
 | Discovered a pattern or gotcha | TIL | `03-resources/til/YYYY-MM-DD-<slug>.md` |
+| Crafted/refined a reusable AI prompt | Prompt (ask first) | `03-resources/prompts/YYYY-MM-DD-<slug>.md` |
 | Significant work session | Update project note | `01-projects/<project>.md` |
+
+### Prompt Auto-Detection
+
+Unlike other auto-captures, **always ask before saving a prompt**. Detect when:
+- User iterated on a prompt 2+ times (refining wording)
+- Prompt contains variables/placeholders (`[X]`, `{context}`, etc.)
+- User created variants for different contexts
+- User expressed satisfaction ("this works", "save this", "good prompt")
+
+When detected, ask: *"That prompt looks reusable — want me to save it to your prompts library?"*
+If yes, use `/brain prompt` or write directly with the `templates/prompt.md` format.
 
 For note formats, use `/brain` or read `templates/<type>.md`.
 

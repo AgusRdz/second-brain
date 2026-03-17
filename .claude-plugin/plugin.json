@@ -1,5 +1,5 @@
 {
   "name": "second-brain",
-  "version": "1.0.0",
-  "description": "Auto-capture engineering knowledge to Obsidian vault"
+  "version": "1.2.0",
+  "description": "Auto-capture engineering knowledge and AI prompts to Obsidian vault"
 }

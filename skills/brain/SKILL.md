@@ -1,6 +1,6 @@
 ---
 name: brain
-description: Capture engineering knowledge to the Second Brain Obsidian vault. Use when you want to save debugging notes, decisions, TILs, daily logs, braindumps, or project updates. Invoke with /brain or /brain <type>.
+description: Capture engineering knowledge to the Second Brain Obsidian vault. Use when you want to save debugging notes, decisions, TILs, daily logs, braindumps, prompts, or project updates. Invoke with /brain or /brain <type>.
 ---
 
 # Second Brain Capture
@@ -18,6 +18,7 @@ Parse the user's intent from the command arguments:
 | `debug` | Create debugging note | `03-resources/debugging/YYYY-MM-DD-<slug>.md` |
 | `decision` | Create decision record | `01-projects/decisions/YYYY-MM-DD-<slug>.md` |
 | `til` | Create TIL note | `03-resources/til/YYYY-MM-DD-<slug>.md` |
+| `prompt` | Save a reusable AI prompt | `03-resources/prompts/YYYY-MM-DD-<slug>.md` |
 | `dump` | Quick braindump — raw thought capture | `00-inbox/dump-YYYY-MM-DD-<slug>.md` |
 | `daily` | Create/update daily log | `00-inbox/YYYY-MM-DD.md` |
 | `project <name>` | Update project note | `01-projects/<name>.md` |
@@ -31,6 +32,7 @@ Parse the user's intent from the command arguments:
   debug             Debugging note       → 03-resources/debugging/
   decision          Decision record      → 01-projects/decisions/
   til               Today I learned      → 03-resources/til/
+  prompt            Reusable AI prompt   → 03-resources/prompts/
   dump <text>       Quick braindump      → 00-inbox/
   daily             Daily log            → 00-inbox/
   project <name>    Update project note  → 01-projects/
