@@ -15,6 +15,7 @@ Thumbs.db
 00-inbox/*.md
 01-projects/*.md
 01-projects/decisions/*.md
+01-projects/plans/*.md
 02-areas/*.md
 03-resources/*.md
 03-resources/debugging/*.md
