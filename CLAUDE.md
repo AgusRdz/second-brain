@@ -23,7 +23,18 @@ Claude should automatically capture noteworthy events without being asked. Use t
 | Made a technical decision | Decision record | `01-projects/decisions/YYYY-MM-DD-<slug>.md` |
 | Discovered a pattern or gotcha | TIL | `03-resources/til/YYYY-MM-DD-<slug>.md` |
 | Crafted/refined a reusable AI prompt | Prompt (ask first) | `03-resources/prompts/YYYY-MM-DD-<slug>.md` |
+| Starting a multi-step implementation task | Plan (ask first) | `01-projects/plans/YYYY-MM-DD-<slug>.md` |
 | Significant work session | Update project note | `01-projects/<project>.md` |
+
+### Plan Auto-Detection
+
+Unlike other auto-captures, **always ask before saving a plan**. Detect when:
+- A multi-step implementation task is being discussed
+- User is about to start something that could span sessions
+
+When detected, ask: *"Want me to save this as a plan so we can resume it later?"*
+If yes, use `/brain plan` or write directly with the `templates/plan.md` format.
+After each session milestone, offer to update the **Resume Here** field.
 
 ### Prompt Auto-Detection
 
@@ -40,7 +51,7 @@ For note formats, use `/brain` or read `templates/<type>.md`.
 
 ## Tag Taxonomy
 
-`#debugging`, `#decision`, `#til`, `#pattern`, `#claude-code`
+`#debugging`, `#decision`, `#til`, `#pattern`, `#claude-code`, `#plan`
 
 Add your own `#project/<name>` tags as needed (e.g., `#project/my-app`).
 Role tags: `#pm`, `#design`, `#frontend`, `#backend`

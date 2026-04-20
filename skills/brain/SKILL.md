@@ -21,6 +21,7 @@ Parse the user's intent from the command arguments:
 | `prompt` | Save a reusable AI prompt | `03-resources/prompts/YYYY-MM-DD-<slug>.md` |
 | `dump` | Quick braindump — raw thought capture | `00-inbox/dump-YYYY-MM-DD-<slug>.md` |
 | `daily` | Create/update daily log | `00-inbox/YYYY-MM-DD.md` |
+| `plan` | Create or update a plan | `01-projects/plans/YYYY-MM-DD-<slug>.md` |
 | `project <name>` | Update project note | `01-projects/<name>.md` |
 | `search <query>` | Search vault with Grep | — |
 | `help` | Show available commands | — |
@@ -35,6 +36,7 @@ Parse the user's intent from the command arguments:
   prompt            Reusable AI prompt   → 03-resources/prompts/
   dump <text>       Quick braindump      → 00-inbox/
   daily             Daily log            → 00-inbox/
+  plan              Create/update plan   → 01-projects/plans/
   project <name>    Update project note  → 01-projects/
   search <query>    Search the vault
   help              This message
